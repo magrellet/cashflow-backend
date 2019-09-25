@@ -1,7 +1,7 @@
 package com.cashflow.service;
 
-import com.cashflow.Entity.CashFlow;
-import com.cashflow.Entity.Category;
+import com.cashflow.entity.CashFlow;
+import com.cashflow.entity.Category;
 import com.cashflow.repository.CategoryRepository;
 import java.util.List;
 import javax.inject.Inject;
@@ -25,5 +25,15 @@ public class CashFlowServiceImpl implements CashFlowService {
   @Override
   public List<Category> getCategories() {
     return categoryRepository.findAll();
+  }
+
+  @Override
+  public Category saveCategory(Category category) {
+    return categoryRepository.save(category);
+  }
+
+  @Override
+  public List<Category> saveCategories(List<Category> categories) {
+    return categoryRepository.saveAll(categories);
   }
 }

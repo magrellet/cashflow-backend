@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Rent",
+    "type": "OUTPUT"
+  },
+  {
+    "name": "Card",
+    "type": "OUTPUT"
+  },
+  {
+    "name": "Supermarket",
+    "type": "OUTPUT"
+  },
+  {
+    "name": "Food",
+    "type": "OUTPUT"
+  },
+  {
+    "name": "Eating Out",
+    "type": "OUTPUT"
+  },
+  {
+    "name": "Transportation",
+    "type": "OUTPUT"
+  },
+  {
+    "name": "Gym",
+    "type": "OUTPUT"
+  },
+  {
+    "name": "TV/Internet/Phone",
+    "type": "OUTPUT"
+  },
+  {
+    "name": "Loan",
+    "type": "OUTPUT"
+  },
+  {
+    "name": "Online Shopping",
+    "type": "OUTPUT"
+  },
+  {
+    "name": "Clothes",
+    "type": "OUTPUT"
+  },
+  {
+    "name": "Misc",
+    "type": "OUTPUT"
+  },
+  {
+    "name": "Investment",
+    "type": "OUTPUT"
+  },
+  {
+    "name": "Interest",
+    "type": "INPUT"
+  },
+  {
+    "name": "Salary",
+    "type": "INPUT"
+  },
+  {
+    "name": "Bonus",
+    "type": "INPUT"
+  },
+  {
+    "name": "Extras",
+    "type": "INPUT"
+  }
+]
